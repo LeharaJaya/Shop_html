@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Below Water Shop</title>
+    <link rel="stylesheet" href="shop_style.css">
+</head>
+
+<body>
+    <div class="slogan">
+        <p>Let's Preserve Our Seas for Tomorrow's Dreams...</p>
+        <button class="user-profile" onclick="location.href='#UserProfile';">Sign Up/Sign In</button>
+    </div>
+
+    <div class="header">
+        <a href="#splashscreen">
+            <img src="logo.png" alt="Logo" class="logo">
+        </a>
+        <span class="website-name">Blue Nest</span>
+    </div>
+
+    <span class="menu-icon" id="menu-icon" onclick="openNav()">&#9776;</span>
+
+    <div id="navbar" class="overlay">
+        <div class="overlay-content">
+            <a href="Home.html">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Gallery</a>
+            <a href="Feedback.html">Feedback</a>
+            <a href="#">Sitemap</a>
+            <a href="#">About Us</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="welcome">
+            <h2>WELCOME</h2>
+            <h2>WELCOME</h2>
+        </div>
+        <div class="content">
+            <p class="anim">"Explore our Life Below Water Shop for eco-friendly products promoting ocean conservation.
+                From reusable bottles to marine-themed apparel, shop sustainably and support our mission for a cleaner,
+                healthier planet."</p>
+            <a href="#product-topic" class="btn anim"><b>Go to the shop</b></a>
+        </div>
+        <img src="beachshop.jpg" class="feature-img anim" alt="shop">
+    </div>
+    <div class="product-topic" id="product-topic">
+        <h2>Our Products</h2>
+    </div>
+    <div class="container">
+        <div class="product-showcase">
+
+            <!-- Product Listings -->
+            <div class="product">
+                <div class="product-image">
+                    <img src="reuseablewaterbottel.jpg" alt="Product 1">
+                </div>
+                <h3>Reuseable water bottel</h3>
+                <p>Eco-Friendly</p>
+                <div class="product-options">
+                    <label for="water-bottle-size">Size:</label>
+                    <select id="water-bottle-size">
+                        <option value="small">Small</option>
+                        <option value="large">Large</option>
+                    </select>
+                    <label for="water-bottle-color">Color:</label>
+                    <select id="water-bottle-color">
+                        <option value="blue">Black</option>
+                        <option value="green">blue</option>
+                    </select>
+                </div>
+                <p>Price: Rs.1000.00</p>
+                <div class="product-quantity">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button class="add-to-cart" data-price="1000">Add to Cart</button>
+            </div>
+
+
+            <div class="product">
+                <img src="Ocean-themedT-shirts.jpg" alt="Product 2">
+                <h3>Ocean-themed T-shirts</h3>
+                <p> Promoting ocean preservation </p>
+                <div class="product-options">
+                    <label for="T-shirt-size">Size:</label>
+                    <select id="T-shirt-size">
+                        <option value="small">Small</option>
+                        <option value="large">Large</option>
+                    </select>
+                    <label for="T-shirt-color">Color:</label>
+                    <select id="T-shirt-color">
+                        <option value="blue">Blue</option>
+                        <option value="green">white</option>
+                    </select>
+                </div>
+                <p>Price: Rs.1500.00</p>
+                <div class="product-quantity">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button class="add-to-cart" data-price="1500">Add to Cart</button>
+
+            </div>
+
+
+            <div class="product">
+                <img src="stainless-steel-straws.jpg" alt="Product 3">
+                <h3>Stainless Steel Straws</h3>
+                <p>A substitute for single-use plastic straws </p>
+                <p>Price: Rs.200.00</p>
+                <div class="product-quantity">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button class="add-to-cart" data-price="200">Add to Cart</button>
+            </div>
+
+
+            <div class="product">
+                <img src="Eco-FriendlySunscreen.jpg" alt="Product 4">
+                <h3>Eco-Friendly Sunscreen</h3>
+                <p>Reef-safe and free from harmful chemicals</p>
+                <p>Price: Rs.900.00</p>
+                <div class="product-quantity">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button class="add-to-cart" data-price="900">Add to Cart</button>
+            </div>
+
+
+            <div class="product">
+                <img src="BeachCleanupKits.jpg" alt="Product 5">
+                <h3>Beach Cleanup Kits</h3>
+                <p>Containing biodegradable bags, gloves, and other tools</p>
+                <p>Price:Rs.1100.00</p>
+                <div class="product-quantity">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button class="add-to-cart" data-price="1100">Add to Cart</button>
+            </div>
+
+
+            <div class="product">
+                <img src="MarineConservationBooks.jpg" alt="Product 6">
+                <h3>Marine Conservation Books</h3>
+                <p>Educational book </p>
+                <p>Price: Rs.800.00</p>
+                <div class="product-quantity">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button class="add-to-cart" data-price="800">Add to Cart</button>
+            </div>
+
+
+            <div class="product">
+                <img src="Ocean-themedArtPrints.jpg" alt="Product 7">
+                <h3>Ocean-themed Art Prints</h3>
+                <p>Art prints featuring underwater photography, ocean landscapes</p>
+                <p>Price: Rs.2500.00</p>
+                <div class="product-quantity">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button class="add-to-cart" data-price="2500">Add to Cart</button>
+            </div>
+
+
+            <div class="product">
+                <img src="seafood_guide.jpg" alt="Product 8">
+                <h3>Sustainable Seafood Guides</h3>
+                <p>To responsible fishing practices</p>
+                <p>Price: 300.00</p>
+                <div class="product-quantity">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button class="add-to-cart" data-price="300">Add to Cart</button>
+            </div>
+        </div>
+
+
+        <div class="sidebar">
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="selected-items">
+                    <!-- Display selected items dynamically -->
+                </div>
+                <div class="total-price">Total: Rs.0.00</div>
+                <button class="checkout">Proceed to Checkout</button>
+                <p class="validation-message">Please select items to proceed to checkout</p>
+            </div>
+
+            <div class="checkout-section hidden">
+                <form class="checkout-form">
+                    <div class="payment-details">
+                        <h3>Payment Details</h3>
+                        <input type="text" id="cardnumber" placeholder="Card Number" required>
+                        <input type="text" id="expirydate" placeholder="Expiry Date (MM/YYYY)" required>
+                        <input type="text" id="cvv" placeholder="CVV" required>
+                        <div class="error" id="payment-error"></div>
+                    </div>
+                    <div class="billing-address">
+                        <h3>Billing Address</h3>
+                        <input type="text" id="billingname" placeholder="Full Name" required>
+                        <input type="email" id="billingemail" placeholder="Email Address" required>
+                        <input type="text" id="billingaddress" placeholder="Address" required>
+                        <input type="text" id="billingcity" placeholder="City" required>
+                        <input type="text" id="billingzip" placeholder="ZIP/Postal Code" required>
+                        <div class="error" id="billing-error"></div>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Contact Details</h3>
+                        <input type="text" id="contact-name" placeholder="Your Name" required>
+                        <input type="email" id="contact-email" placeholder="Your Email" required>
+                        <input type="text" id="contact-address" placeholder="Shipping Address" required>
+                        <input type="number" id="contact-number" placeholder="Mobile Number" required>
+                        <div class="error" id="contact-error"></div>
+                    </div>
+                    <button type="submit" class="confirm-order">Confirm Order</button>
+                </form>
+                <div class="confirmation-message hidden">Your order has been placed successfully!</div>
+            </div>
+            <span id="Editorspage"><a href="Page Editor.html">Editors page </a></span>
+        </div>
+    </div>
+    <footer class="footer" style="position: relative; bottom: 0;">
+        <div class="socialIcons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul>
+                <li><a class="active" href="Home.html">Home</a></li>
+                <li><a href="Cw shop lehara.html">Shop</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">User Profile</a></li>
+            </ul>
+        </div>
+        <div class="copyright">&copy; 2024 Blue Nest. All rights reserved.</div>
+        <img src="logo.png" alt="Logo" class="footer-logo">
+        
+    </footer>
+    <script src="shop_script.js"></script>
+</body>
+
+</html>
